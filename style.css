@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    background-image: url("images/logo.svg");
+    height: 20px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hero {
+    background-image: url("images/hero-mobile.jpg");
+    height: 250px;
+    width: auto;
+}
+
+section.info h1 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.825397491455078px;
+    text-transform: uppercase;
+}
+
+section.info h1.were {
+    font-weight: 300;
+    letter-spacing: 10.825397491455078px;
+}
+
+section.info h1.coming__soon {
+    font-weight: 600;
+}
+
+section.info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+section.form input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 9px 1.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+footer p.attribution {
+    display: none;
+}
