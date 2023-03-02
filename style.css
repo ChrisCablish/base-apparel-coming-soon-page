@@ -54,6 +54,10 @@ section.info p {
     margin-top: 1rem;
 }
 
+section.form {
+    position: relative;
+}
+
 section.form input {
     font-size: 0.875rem;
     font-weight: 400;
@@ -69,4 +73,26 @@ section.form input {
 
 footer p.attribution {
     display: none;
+}
+
+section.form button {
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-100%, 0);
+    height: 48px;
+    width: 64px;
+    border: none;
+}
+
+button .submit__icon {
+    width: 9px;
+    height: 18px;
+    background-image: url("images/icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto;
+    /* padding: 15px 28px; */
+
 }
