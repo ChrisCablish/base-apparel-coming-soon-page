@@ -1,9 +1,23 @@
+:root {
+    /* COLORS */
+   --textRed: hsla(0, 36%, 70%, 1);
+   --darkGrayText: hsla(0, 7%, 24%, 1);
+   --backgroundRed: hsl(0, 93%, 68%);
+   /* GRADIENT */
+   --mainDesktopBackground: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+   --buttonGradientBackground: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* HEADER */
 
 .header__wrapper {
     padding: 2rem;
@@ -18,11 +32,15 @@
     background-position: center;
 }
 
+/* HERO */
+
 .hero {
     background-image: url("images/hero-mobile.jpg");
     height: 15.625rem;
     width: auto;
 }
+
+/* INFO */
 
 .info__and__form__wrapper {
     text-align: center;
@@ -36,15 +54,18 @@ section.info h1 {
     line-height: 2.625rem;
     letter-spacing: 10.825397491455078px;
     text-transform: uppercase;
+    
 }
 
 section.info h1.were {
     font-weight: 300;
     letter-spacing: 0.6875rem;
+    color: var(--textRed);
 }
 
 section.info h1.coming__soon {
     font-weight: 600;
+    color: var(--darkGrayText);
 }
 
 section.info p {
@@ -52,7 +73,11 @@ section.info p {
     font-weight: 400;
     line-height: 1.375rem;
     margin-top: 1rem;
-}
+    color: var(--textRed);
+    }
+
+
+/* FORM */
 
 section.form {
     position: relative;
@@ -67,22 +92,12 @@ section.form input {
     width: 100%;
     border-radius: 2rem;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid var(--textRed);
     margin-top: 2rem;
 }
 
-footer p.attribution {
-    display: none;
-}
-
-section.form button {
-    border-radius: 2rem;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100%, 0);
-    height: 48px;
-    width: 64px;
-    border: none;
+section.form input::placeholder {
+    color: var(--textRed);
 }
 
 button .submit__icon {
@@ -93,6 +108,22 @@ button .submit__icon {
     background-position: center;
     background-size: 100%;
     margin: 0 auto;
-    /* padding: 15px 28px; */
-
 }
+
+section.form button {
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-100%, 0);
+    height: 48px;
+    width: 64px;
+    border: none;
+    background-image: var(--buttonGradientBackground);
+}
+
+/* ATTRIBUTION */
+
+footer p.attribution {
+    display: none;
+}
+
