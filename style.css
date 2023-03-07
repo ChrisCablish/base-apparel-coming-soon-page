@@ -129,13 +129,40 @@ button .submit__icon {
 form.form button {
     border-radius: 2rem;
     position: absolute;
-    bottom: 0;
-    transform: translate(-100%, 0);
+    bottom: 2rem;
+    right: 0rem;
+    /* transform: translate(-100%, 0); */
     height: 48px;
     width: 64px;
     border: none;
     background-image: var(--buttonGradientBackground);
     box-shadow: 0 1rem 0.8rem var(--textRedOP);
+}
+
+form .alert__icon {
+    background-image: url("images/icon-error.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    bottom: 2.7rem;
+    right: 5rem;
+    display: none;
+}
+
+form .alert__message {
+    display: block;
+    padding-left: 1.5rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: .25rem;
+    color: hsl(0, 93%, 68%);
+    text-align: left;
+    opacity: 0;
+    cursor:default;
+
 }
 
 /* ATTRIBUTION */
