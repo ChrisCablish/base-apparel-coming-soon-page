@@ -7,7 +7,6 @@ const alertMessage = document.getElementById('alert__message');
 const validateEmail = (input) => {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(input).toLowerCase());
-    // this returns true or false
     }
 
 form.addEventListener('submit', (e)=>{
@@ -17,8 +16,6 @@ form.addEventListener('submit', (e)=>{
         alertIcon.style.display = 'block';
         alertMessage.style.opacity = '1';
         input.value = "";
-
-        // alert('invalid');
     } else {
         window.location.reload();
     }
