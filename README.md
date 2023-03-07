@@ -10,10 +10,8 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: https://github.com/ChrisCablish/base-apparel-coming-soon-page
+- Live Site URL:  https://chriscablish.github.io/base-apparel-coming-soon-page/
 
 ### Built with
 
