@@ -95,11 +95,11 @@ section.info p {
 
 /* FORM */
 
-section.form {
+form.form {
     position: relative;
 }
 
-section.form input {
+form.form input {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -112,7 +112,7 @@ section.form input {
     margin-top: 2rem;
 }
 
-section.form input::placeholder {
+form.form input::placeholder {
     color: var(--textRed);
 }
 
@@ -126,7 +126,7 @@ button .submit__icon {
     margin: 0 auto;
 }
 
-section.form button {
+form.form button {
     border-radius: 2rem;
     position: absolute;
     bottom: 0;
@@ -206,7 +206,7 @@ footer p.attribution {
         max-width: 23rem;
     }
 
-    section.form button:hover {
+    form.form button:hover {
         background-color: var(--backgroundRedOP);
         cursor: pointer;
         background-image: none;
